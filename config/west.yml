@@ -16,11 +16,11 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: prospector-zmk-module
-      remote: carrefinho
-      revision: main
     # - name: prospector-zmk-module
-    #   remote: kien242
+    #   remote: carrefinho
     #   revision: main
+    - name: prospector-zmk-module
+      remote: kien242
+      revision: main
   self:
     path: config
