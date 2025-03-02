@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
     - name: kien242
       url-base: https://github.com/kien242
   projects:
@@ -15,7 +17,10 @@ manifest:
       remote: caksoylar
       revision: main
     - name: prospector-zmk-module
-      remote: kien242
+      remote: carrefinho
       revision: main
+    # - name: prospector-zmk-module
+    #   remote: kien242
+    #   revision: main
   self:
     path: config
